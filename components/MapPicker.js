@@ -7,7 +7,7 @@ export default function MapPicker(props)
     let imgUrl;
     if(props.location)
     {
-        imgUrl=`https://maps.googleapis.com/maps/api/staticmap?center=${props.location.lat},${props.location.lng}&zoom=14&size=400x200&maptype=roadmap&markers=color:blue%7Clabel:S%7C${props.location.lat},${props.location.lng}&key=AIzaSyCpAKMujv0fHC4TK3EKb7bWcU2cLj-KKKI`    ;
+        imgUrl=`https://maps.googleapis.com/maps/api/staticmap?center=${props.location.lat},${props.location.lng}&zoom=14&size=400x200&maptype=roadmap&markers=color:blue%7Clabel:S%7C${props.location.lat},${props.location.lng}&key={YOUR_KEY}`    ;
        // console.log(imgUrl)
     }
 
